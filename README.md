@@ -16,12 +16,14 @@ You have been provided with the e-commerce order history for 3 different compani
 
 Your Chief Risk Officer, Jimbo is interested in projecting each company's total ecommerce revenue in the next 180 days. However, Jimbo doesn't just want to have a single estimated revenue but would like to understand the likelihood that a company will reach each marginal dollar of revenue. 
 
-Construct a model that you believe best assists in answering this question. For example, you might ask yourself what is the likelihood that a company will receive at least $1 in revenue in the next 60 days (this would probably be very high) and likewise the likelihood that the company might receive $10M (this might be very low).
+Construct a model that you believe best assists in answering this question. For example, you might ask yourself what is the likelihood that a company will receive at least $1 in revenue in the next 180 days (this would probably be very high) and likewise the likelihood that the company might receive $10M (this might be very low).
+
 Based on the results of your analysis, Jimbo will decide the amount of risk Gourmet Growth is willing to take for this company and thus how much credit to extend. 
 
 
 Requirements and Hints: 
 - For purposes of this exercise you can assume revenue to be `total_price` net of `order_refunds` for all `paid` orders.
+- Note that many companies experience seasonal highs and lows throughout the year.
 - Please commit your solution in a separate branch and create an Merge Request with your changes. 
 - Please write your answer in python. You are welcome to use any open source packages / libraries in the python ecocosystem. 
 - Please provide some minimal documentation on how to run your model. 
